@@ -19,7 +19,7 @@ def assign_rooms(speaker)
   return array
 end
 
-def printer
+def printer(attendees)
   batch_batch_creator(arr).each do |num|
     puts num
   end
