@@ -20,3 +20,4 @@ def assign_rooms(speaker)
 end
 
 def printer
+  batch_batch_creator(array)
