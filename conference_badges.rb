@@ -10,5 +10,8 @@ def batch_badge_creator(arr)
 end
 
 def assign_room(speaker)
-  speaker.each
+  array = []
+  counter = 1 
+  speaker.each do |index|
+    puts
 end 
