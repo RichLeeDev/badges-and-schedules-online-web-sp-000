@@ -9,7 +9,7 @@ def batch_badge_creator(arr)
   ray
 end
 
-def assign_room(speaker)
+def assign_rooms(speaker)
   array = []
   counter = 1 
   speaker.each do |index|
