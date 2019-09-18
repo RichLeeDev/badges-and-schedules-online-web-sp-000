@@ -13,5 +13,8 @@ def assign_room(speaker)
   array = []
   counter = 1 
   speaker.each do |index|
-    puts
+    puts "Hello, #{index}! You'll be assigned to room #{counter}!"
+    counter += 1
+  end
+  
 end 
