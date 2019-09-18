@@ -17,4 +17,6 @@ def assign_rooms(speaker)
     counter += 1
   end
   return array
-end 
+end
+
+def printer
