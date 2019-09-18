@@ -20,4 +20,10 @@ def assign_rooms(speaker)
 end
 
 def printer
-  batch_batch_creator(arr)
+  batch_batch_creator(arr).each do |num|
+    puts num
+  end
+  assign_rooms(speaker).each do |num|
+    puts num
+  end
+end
