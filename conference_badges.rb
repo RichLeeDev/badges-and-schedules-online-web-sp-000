@@ -16,5 +16,5 @@ def assign_room(speaker)
     array.push("Hello, #{index}! You'll be assigned to room #{counter}!")
     counter += 1
   end
-  
+  return array
 end 
