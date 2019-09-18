@@ -5,7 +5,7 @@ end
 
 def batch_badge_creator(arr)
   ray = []
-  arr.each { |arr| ray << "Hello, my name is #{arr}."}
+  arr.each { |index| ray << "Hello, my name is #{index}."}
   ray
 end
 
